@@ -295,7 +295,7 @@ body.show-invite .invite {
 .hero__bunny img { width: 100%; height: auto; display: block; }
 
 .hero__eyebrow {
-  margin: 0 0 0.65rem;
+  margin: 0 0 1.1rem;
   font-family: var(--font-display);
   font-weight: 500;
   font-size: clamp(0.72rem, 2.9vw, 0.9rem);
@@ -312,7 +312,7 @@ body.show-invite .invite {
   color: var(--peach-deep);
 }
 .hero__first {
-  margin: 0.1rem 0 0;
+  margin: 0.5rem 0 0;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: clamp(1.15rem, 5vw, 1.6rem);
@@ -325,7 +325,7 @@ body.show-invite .invite {
   align-items: center;
   justify-content: center;
   gap: 0.7rem;
-  margin: clamp(1.1rem, 4vw, 1.6rem) 0;
+  margin: clamp(1.75rem, 5.5vw, 2.4rem) 0;
 }
 .hero__rule span:not(.hero__rule-heart) {
   width: clamp(2rem, 9vw, 3.25rem);
@@ -334,7 +334,7 @@ body.show-invite .invite {
 }
 .hero__rule-heart { color: var(--blush); font-size: 0.85rem; }
 .hero__date {
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.7rem;
   font-family: var(--font-body);
   font-weight: 700;
   font-size: clamp(0.92rem, 3.6vw, 1.1rem);
