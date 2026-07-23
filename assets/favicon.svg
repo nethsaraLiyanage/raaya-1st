@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfaf6"/>
+      <stop offset="1" stop-color="#fbe4d5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="34" r="30" fill="#eef7f2"/>
+  <!-- ears -->
+  <ellipse cx="24" cy="18" rx="6" ry="15" fill="url(#b)" stroke="#e6c3b0" stroke-width="1.5" transform="rotate(-12 24 18)"/>
+  <ellipse cx="40" cy="18" rx="6" ry="15" fill="url(#b)" stroke="#e6c3b0" stroke-width="1.5" transform="rotate(12 40 18)"/>
+  <ellipse cx="24" cy="18" rx="2.6" ry="9" fill="#f4b6c2" transform="rotate(-12 24 18)"/>
+  <ellipse cx="40" cy="18" rx="2.6" ry="9" fill="#f4b6c2" transform="rotate(12 40 18)"/>
+  <!-- head -->
+  <circle cx="32" cy="40" r="17" fill="url(#b)" stroke="#e6c3b0" stroke-width="1.5"/>
+  <!-- cheeks -->
+  <circle cx="23" cy="43" r="4" fill="#f7ccb0" opacity="0.8"/>
+  <circle cx="41" cy="43" r="4" fill="#f7ccb0" opacity="0.8"/>
+  <!-- eyes -->
+  <circle cx="26.5" cy="38" r="2.1" fill="#6b5449"/>
+  <circle cx="37.5" cy="38" r="2.1" fill="#6b5449"/>
+  <!-- nose -->
+  <path d="M32 42.5 l-2.4 -2 h4.8 z" fill="#e08a5f"/>
+  <path d="M32 44.5 v2.4" stroke="#c9795180" stroke-width="1.2" fill="none"/>
+</svg>

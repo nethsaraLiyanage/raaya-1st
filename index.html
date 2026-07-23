@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raaya's First Birthday — Some Bunny Turned One!</title>
+    <meta
+      name="description"
+      content="You're invited to celebrate Raaya's first birthday — Sunday, 27th September 2026 at Cinnamon Thiya, Nainamadama."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Great+Vibes&family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ===================== INTRO / LANDING ===================== -->
+    <section class="intro" id="intro">
+      <div class="intro__deco" aria-hidden="true">
+        <span class="dot dot--1"></span>
+        <span class="dot dot--2"></span>
+        <span class="dot dot--3"></span>
+        <span class="dot dot--4"></span>
+      </div>
+
+      <div class="intro__inner">
+        <p class="intro__eyebrow">Some bunny turned&nbsp;one!</p>
+
+        <div class="intro__bunny">
+          <img
+            src="assets/bunny-bouquet.png"
+            alt="A little bunny ballerina holding a bouquet"
+            width="279"
+            height="407"
+            decoding="async"
+          />
+        </div>
+
+        <h1 class="intro__name">Raaya</h1>
+        <p class="intro__turning">
+          <span class="intro__turning-line" aria-hidden="true"></span>
+          is turning <strong>one</strong>
+          <span class="intro__turning-line" aria-hidden="true"></span>
+        </p>
+
+        <p class="intro__meta">
+          Sunday, 27<sup>th</sup> September 2026 &nbsp;·&nbsp; 11 AM
+        </p>
+
+        <button type="button" class="intro__open" id="openBtn">
+          <span>Open Invitation</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="intro__open-icon">
+            <path
+              d="M5 12h14M13 6l6 6-6 6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===================== INVITATION ===================== -->
+    <main class="invite" id="invite" aria-hidden="true">
+      <button type="button" class="invite-close" id="closeBtn">Close</button>
+
+      <!-- —— Hero panel —— -->
+      <header class="hero">
+        <div class="hero__panel">
+          <div class="hero__bunny">
+            <img
+              src="assets/bunny-dance.png"
+              alt="A dancing bunny ballerina"
+              width="329"
+              height="402"
+              decoding="async"
+            />
+          </div>
+          <p class="hero__eyebrow">You're invited to celebrate</p>
+          <h2 class="hero__name">Raaya's</h2>
+          <p class="hero__first">First Birthday</p>
+          <div class="hero__rule" aria-hidden="true">
+            <span></span><span class="hero__rule-heart">♥</span><span></span>
+          </div>
+          <p class="hero__date">27<sup>th</sup> September 2026</p>
+          <p class="hero__where">Cinnamon Thiya · Nainamadama</p>
+        </div>
+
+        <a class="scroll-cue" href="#details" id="scrollCue" aria-label="Scroll to details">
+          <span class="scroll-cue__label">Begin</span>
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+        </a>
+      </header>
+
+      <div class="details" id="details">
+        <!-- —— Greeting / hosted by —— -->
+        <section class="greeting reveal-on-scroll" aria-labelledby="greeting-h">
+          <div class="greeting__inner">
+            <p class="greeting__lead" id="greeting-h">
+              Our little bunny is hopping into her very first year, and we would
+              be overjoyed to have you celebrate with us.
+            </p>
+            <div class="greeting__card">
+              <p class="greeting__card-label">Lovingly hosted by</p>
+              <!-- TODO: replace with the real parents' names -->
+              <p class="greeting__card-names">Mummy &amp; Daddy</p>
+              <p class="greeting__card-sub">Parents of the birthday girl</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- —— When —— -->
+        <section class="when reveal-on-scroll" aria-labelledby="when-h">
+          <h2 class="visually-hidden" id="when-h">Date and time</h2>
+          <div class="when__inner">
+            <div class="when__grid">
+              <div class="when__col">
+                <div class="when__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3.5" y="5" width="17" height="15" rx="3" />
+                    <path d="M8 3v4M16 3v4M3.5 10h17" />
+                  </svg>
+                </div>
+                <p class="when__label">The Date</p>
+                <p class="when__main">Sunday</p>
+                <p class="when__sub">27th September 2026</p>
+              </div>
+              <div class="when__divider" aria-hidden="true"></div>
+              <div class="when__col">
+                <div class="when__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="8" />
+                    <path d="M12 8v4l3 2" />
+                  </svg>
+                </div>
+                <p class="when__label">The Time</p>
+                <p class="when__main">11 AM – 4 PM</p>
+                <p class="when__sub">Lunch reception</p>
+              </div>
+            </div>
+            <p class="when__pill">
+              <span aria-hidden="true">✿</span>
+              Come dressed in mint, peach &amp; white
+              <span aria-hidden="true">✿</span>
+            </p>
+          </div>
+        </section>
+
+        <!-- —— Venue —— -->
+        <section class="venue reveal-on-scroll" id="venue" aria-labelledby="venue-h">
+          <div class="venue__inner">
+            <div class="venue__copy">
+              <p class="venue__kicker">
+                <span class="venue__kicker-line" aria-hidden="true"></span>
+                The Venue
+              </p>
+              <h2 class="venue__title" id="venue-h">Cinnamon Thiya</h2>
+              <p class="venue__loc">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M12 21s7-4.35 7-11a7 7 0 1 0-14 0c0 6.65 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                <span>Nainamadama, Sri Lanka</span>
+              </p>
+              <p class="venue__desc">
+                A morning of little ears, sweet treats and lots of love. We
+                can't wait to make memories with you.
+              </p>
+              <a
+                class="venue__cta"
+                href="https://www.google.com/maps/search/?api=1&query=Cinnamon+Thiya+Nainamadama"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M12 21s7-4.35 7-11a7 7 0 1 0-14 0c0 6.65 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Get directions
+              </a>
+            </div>
+            <div class="venue__map">
+              <div class="venue__map-frame">
+                <iframe
+                  title="Map to Cinnamon Thiya, Nainamadama"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=Cinnamon+Thiya+Nainamadama+Sri+Lanka&z=14&output=embed"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- —— RSVP —— -->
+        <section class="rsvp reveal-on-scroll" id="rsvp" aria-labelledby="rsvp-h">
+          <div class="rsvp__inner">
+            <div class="rsvp__bunny" aria-hidden="true">
+              <img src="assets/bunny-sit.png" alt="" width="293" height="375" decoding="async" />
+            </div>
+            <p class="rsvp__eyebrow">Will you hop over?</p>
+            <h2 class="rsvp__title" id="rsvp-h">RSVP</h2>
+            <div class="rsvp__rule" aria-hidden="true">
+              <span></span><span class="rsvp__rule-dot"></span><span></span>
+            </div>
+            <p class="rsvp__copy">
+              Kindly let us know you're coming so we can save you a seat at the
+              party.
+            </p>
+            <!-- TODO: replace names & numbers with the real RSVP contacts -->
+            <ul class="rsvp__phones">
+              <li>
+                <span class="rsvp__phone-name">Mummy</span>
+                <a class="rsvp__phone" href="tel:+94770000000">+94 77 000 0000</a>
+              </li>
+              <li>
+                <span class="rsvp__phone-name">Daddy</span>
+                <a class="rsvp__phone" href="tel:+94710000000">+94 71 000 0000</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- —— Closing —— -->
+        <section class="closing reveal-on-scroll" aria-labelledby="closing-h">
+          <div class="closing__inner">
+            <p class="closing__pill">With love &amp; carrots</p>
+            <h2 class="closing__name" id="closing-h">See you there!</h2>
+            <div class="closing__bunnies" aria-hidden="true">
+              <img src="assets/bunnies-transparent.png" alt="" width="1280" height="853" decoding="async" />
+            </div>
+            <footer class="foot">
+              <p>Raaya turns one · 27 September 2026</p>
+            </footer>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="petals" id="petals" aria-hidden="true"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
